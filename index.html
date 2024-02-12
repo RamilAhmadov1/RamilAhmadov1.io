@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramil Personel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a878f7b967.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+       <nav>
+        <img src="Images/5.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+       </nav>
+       <div class="header-text">
+        <p>Hello World!!</p>
+        <h1>I'm <span> Ramil</span>  <br> I am a Software Engineer</h1>
+       </div>
+    </div>
+   <!--------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/B1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a graduate student, I devoted myself to the art of coding, focusing on developing skills in data structures and
+                    algorithms. Proficient in vital programming languages and tools, my expertise covers data structures and algorithms,
+                    cloud architecture, databases and web applications. Determined to meet technological challenges, I aspire to foster
+                    innovation in the ever-evolving field of computer science.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('exsperience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java</span><br>
+                                    Proficient in Java programming language.<br>                                    
+                                    Advanced problem-solving skills with data structures and algorithms.<br>
+                                    
+                                </li>
+                                
+                                <li><span>Oracle</span><br>
+                                    Database design and management<br>                                    
+                                    Data modeling and normalization<br>
+                                </li>
+                                
+                                <li><span>AWS & Cloud Architecture</span><br>
+                                    Cloud infrastructure design and implementation<br>                                   
+                                </li>
+                                
+                                <li><span>HTML, CSS, JavaScript</span><br>
+                                    Front-end web development<br>                                    
+                                </li>
+                                
+                                <li><span>React</span><br>
+                                    Building and maintaining React applications<br>                                   
+                                </li>
+                                
+                                <li><span>Git</span><br>
+                                    Version control with Git<br>                                    
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="exsperience">
+                            <ul>
+                                <li><span>Software Engineer </span><br>
+                                    Developing and Maintaining Banking Applications.<br>
+                                    Contributed to the Development of High-Performance Trading Platform.<br>
+                                    Participated in the development of reporting systems for bank cards.<br>
+                                    Supporting Software Integration.
+                                </li>
+
+                                
+                            </ul>
+                        </div>    <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Master of Science in Software Engineering. University of St. Thomas</span><br> As a graduate student at the University of St. Thomas, I am actively building a solid foundation in software
+                                engineering. My academic pursuits are honing my skills and deepening my understanding of the intricacies within the
+                                field.</li>
+                                <li><span>Business Administration of Management | Mehmet Akif Ersoy University</span><br> Equipped with a Bachelor of Business Administration degree, I am currently advancing my expertise in software
+                                engineering as a graduate student at the University of St. Thomas. This unique blend of business acumen and technical
+                                proficiency fuels my holistic approach to problem-solving and innovation</li>
+                              
+                            </ul>
+                        </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <!-------services-------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Backend development</h2>
+                    <a href="#">Java</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-button"></i>
+                    <h2>Application design</h2>
+                    <a href="#">Html | Css | JavaScript | React</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud architecture</h2>
+                    <a href="#">AWS</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database design and management</h2>
+                    <a href="#">Oracle</a>
+                </div>
+            </div>  
+        </div>
+    </div>
+<!----------Portfolio-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="Images/2.jpg">
+                    <div class="layer">
+                        <h3>3D Personel Portfolio</h3>
+                        <p>Click Here</p>
+                        <a href="https://ramilonline.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/10.jpg">
+                    <div class="layer">
+                        <h3>Bank Database System and Design</h3>
+                        <p>Click Here</p>
+                        <a href="https://github.com/RamilAhmadov1/Bank-Database-Design" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/3.jpg">
+                    <div class="layer">
+                        <h3>AWS Capstone Project</h3>
+                        <p>Click Here</p>
+                        <a href="https://github.com/RamilAhmadov1?tab=projects" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!------------contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ramil.ahmadov25@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>4135050300</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ramil-ahmadov-8860a923b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/ramil.akhmedov.37"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ramil.akhmedov/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Images/Ramil_Ahmadov_Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    <div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Ramil</p>
+            </div>
+        </div>   
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwniF8EDXn7sU6hVpaRrR36eaNep8z4zVD5hhW4qWv-S1V50gCvNu3nNDk14u5mWPxBtA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+
+</html>
